@@ -103,6 +103,36 @@ section {
     z-index: 1;
 }
 
+/* Flower decorations for hero section */
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.hero-section .container::before {
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -145,6 +175,27 @@ section {
     margin-bottom: 15px;
     color: var(--text-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+}
+
+.hero-text h1::after {
+    content: 'Verified';
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 3px 10px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    top: -15px;
 }
 
 .tagline {
@@ -164,6 +215,23 @@ section {
 /* About Section */
 .about-section {
     background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(15deg);
+    z-index: 0;
 }
 
 .about-content {
@@ -226,6 +294,23 @@ section {
 /* Experience Section */
 .experience-section {
     background-color: var(--light-gray);
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-section::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(-20deg);
+    z-index: 0;
 }
 
 .experience-cards {
@@ -284,6 +369,23 @@ section {
 /* Education Section */
 .education-section {
     background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.education-section::before {
+    content: '';
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    width: 130px;
+    height: 130px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(30deg);
+    z-index: 0;
 }
 
 .timeline {
@@ -352,6 +454,38 @@ section {
 /* Skills Section */
 .skills-section {
     background-color: var(--light-gray);
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-section::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 110px;
+    height: 110px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(10deg);
+    z-index: 0;
+}
+
+.skills-section::after {
+    content: '';
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    width: 90px;
+    height: 90px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(-15deg);
+    z-index: 0;
 }
 
 .skills-category {
@@ -423,7 +557,24 @@ section {
 
 /* Contact Section */
 .contact-section {
-    background-color: var(--white);
+    background-color: var(--light-gray);
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-section::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 120px;
+    height: 120px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffb6c1" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(-10deg);
+    z-index: 0;
 }
 
 .contact-content {
@@ -509,6 +660,23 @@ section {
     background-color: var(--primary-color);
     padding: 20px 0;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ffffff" d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+    transform: rotate(20deg);
+    z-index: 0;
 }
 
 .footer p {
