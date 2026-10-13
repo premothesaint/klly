@@ -1,6 +1,6 @@
-# Diana Kelly B. Dela Cruz - Virtual Medical Assistant Portfolio
+# Diana Kelly B. Dela Cruz - Front Desk Receptionist Portfolio
 
-A modern, responsive, and girlie-themed web portfolio for Diana Kelly B. Dela Cruz, a Virtual Medical Assistant. The portfolio features a soft pink and white color palette, feminine design elements, and a clean, user-friendly layout with smooth animations.
+A modern, responsive, and girlie-themed web portfolio for Diana Kelly B. Dela Cruz, a Front Desk Receptionist. The portfolio features a soft pink and white color palette, feminine design elements, and a clean, user-friendly layout with smooth animations.
 
 ## Features
 
